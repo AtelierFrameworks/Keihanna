@@ -1,10 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
-#include "Player.h"
-#include "Sound.h"
-#include "MagicBase.h"
-
+#include "Player.hpp"
 
 class ofApp : public ofBaseApp{
 
@@ -24,13 +21,16 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
-
-		ofImage back;
-		Player atelier;
-		Sound sound;
-		MagicBase magic[10];
-
-		int color_data=1, hall_data=0;
-		bool hall_sensor;
-		
+        ofVec2f mPosition;
+        ofVec2f mVelocity;
+        float x;
+        float y;
+        float vx;
+        float vy;
+        ofImage sprite;
+        int p = 0;
+        bool Key;
+        bool mouse;
+    Player AT;
+    Player H;
 };
