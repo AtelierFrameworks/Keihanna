@@ -27,11 +27,13 @@ Player::Player() {
 	bLeft = false;
 }
 
-void Player::update() {
+int Player::update() {
 	x =  ofGetMouseX();
 	y =  ofGetMouseY();
-	if (y < ofGetHeight() / 5 * 2)y = ofGetHeight() / 5 * 2;
-	else if (y > ofGetHeight() / 5 * 3)y = ofGetHeight() / 5 * 3;
+	int MAXY = ofGetHeight()/100*68;
+	int MinY = ofGetHeight()/100*77;
+	if (y < MAXY)y = MAXY;
+	else if (y > MinY)y = MinY;
 
 
 	if (bLeft) {
@@ -54,6 +56,12 @@ void Player::update() {
 		move(LEFT);
 	}
 
+	if (bLeft) {
+		return 0;
+	}
+	else {
+		return 1;
+	}
 
 }
 

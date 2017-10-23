@@ -3,7 +3,9 @@ class WindMagic
 {
 public:
 	void setup();
-	void update();
+	int update();
 	void draw();
+
+	int count, particle;
 };
 

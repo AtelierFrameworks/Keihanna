@@ -1,6 +1,7 @@
 #pragma once
 #include "FireMagic.h"
 #include "WindMagic.h"
+#include "IceMagic.h"
 class MagicBase
 {
 public:
@@ -10,5 +11,8 @@ public:
 
 	FireMagic fire;
 	WindMagic wind;
+	IceMagic ice;
+
+	int judge=0;
 };
 

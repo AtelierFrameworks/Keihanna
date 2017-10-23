@@ -34,24 +34,47 @@ void FireMagic::setup() {
 	group_fire.setGravity(ofVec3f(0, -100, 0));
 	group_fire.setMass(0.4, 0.6);
 
-	group_fire.reserve(1000);//粒子の発生する量
+	group_fire.reserve(particle);//粒子の発生する量
 
 	group_fire.setSize(0, ofxSPK::RangeF(50, 60));//粒子の最大の大きさ
 
-	rot_fire.setup(SPK::Vortex::create(SPK::Vector3D(ofGetWidth() / 2, ofGetHeight() / 2),
-		SPK::Vector3D(0, 1, 0),
-		200,
-		10), group_fire);
+	particle = 1000;
+	count = 0;
 }
 
 //--------------------------------------------------------------
-void FireMagic::update() {
+int FireMagic::update() {
+	spot[0] = spot[1];
+	spot[1] = ofGetMouseX();
+	if (spot[0] < spot[1]) {
+		plus = ofGetWidth() / 5;
+	}
+	else if (spot[0]>spot[1]) {
+		plus = -ofGetWidth() / 5;
+	}
 
-	group_fire.emitRandom(10, ofVec3f(100 * sin(15 * ofGetElapsedTimef()) + ofGetWidth() / 2, ofGetHeight() / 4 * 3));
+
+
+	group_fire.reserve(particle);//粒子の発生する量
+	rot_fire.setup(SPK::Vortex::create(SPK::Vector3D(ofGetMouseX()+plus, ofGetHeight() / 2),
+		SPK::Vector3D(0, 1, 0),
+		200,
+		10), group_fire);
+	group_fire.emitRandom(10, ofVec3f(100 * sin(15 * ofGetElapsedTimef()) + ofGetMouseX() +plus, ofGetHeight() / 4 * 3));
 
 	sys_fire.update();
-
-	
+	if (count < 180) {
+		count++;
+		
+	}
+	else if (count == 180) {
+		particle -= 10;
+		if (particle == 0) {
+			count = 181;
+			return 1;
+		}
+	}
+	return 0;
 }
 
 //--------------------------------------------------------------
