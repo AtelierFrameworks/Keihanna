@@ -1,7 +1,6 @@
 #pragma once
 
 #include "ofMain.h"
-#include "Player.hpp"
 
 class ofApp : public ofBaseApp{
 
@@ -21,16 +20,10 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
-        ofVec2f mPosition;
-        ofVec2f mVelocity;
-        float x;
-        float y;
-        float vx;
-        float vy;
-        ofImage sprite;
-        int p = 0;
-        bool Key;
-        bool mouse;
-    Player AT;
-    Player H;
+        ofImage hibi1;
+        ofImage hibi2;
+        ofImage hibi3;
+        ofImage hibi4;
+    float p=0;
+    ofSoundPlayer mySound;
 };
