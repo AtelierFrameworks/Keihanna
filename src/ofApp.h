@@ -30,7 +30,11 @@ class ofApp : public ofBaseApp{
 		Sound sound;
 		MagicBase magic[10];
 
-		int color_data=1, hall_data=0;
-		bool hall_sensor;
+		int color_data = 1,hall_data=0;
+		bool hall_sensor[10];
 		
+		int bLeft;
+
+		ofImage zou;
+		ofImage tori;
 };

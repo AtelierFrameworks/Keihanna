@@ -2,12 +2,12 @@
 #include "ofxSPK.h"
 #include "stdio.h"
 
-ofxSPK::System sys;
-ofxSPK::Group group;
+ofxSPK::System sys_wind;
+ofxSPK::Group group_wind;
 
-ofImage sprite;
+ofImage sprite_wind;
 
-ofxSPK::Modifier rot;
+ofxSPK::Modifier rot_wind;
 
 //--------------------------------------------------------------
 void WindMagic::setup() {
@@ -16,43 +16,58 @@ void WindMagic::setup() {
 	// and turn off arb texture option while loading
 	
 	ofDisableArbTex();
-	sprite.loadImage("wind1.png");
+	sprite_wind.loadImage("wind1.png");
 	ofEnableArbTex();
 
 	ofSetFrameRate(60);
 	ofSetVerticalSync(true);
 	ofBackground(0);
 
-	sys.setup();
+	sys_wind.setup();
 
-	group.setup(sys);
-	group.setColor(ofxSPK::RangeC(ofColor(255, 255), ofColor(255, 255)),
+	group_wind.setup(sys_wind);
+	group_wind.setColor(ofxSPK::RangeC(ofColor(255, 255), ofColor(255, 255)),
 		ofxSPK::RangeC(ofColor(0, 0), ofColor(255, 0)));
 
-	group.setLifeTime(0.5, 5);//粒子が発生している時間の範囲(最小時間,最大時間)
-	group.setFriction(0.1);
+	group_wind.setLifeTime(0.5, 5);//粒子が発生している時間の範囲(最小時間,最大時間)
+	group_wind.setFriction(0.1);
 
 
-	group.setGravity(ofVec3f(0, -50, 0));
-	group.setMass(0.1, 0.1);
+	group_wind.setGravity(ofVec3f(0, -50, 0));
+	group_wind.setMass(0.1, 0.1);
 
-	rot.setup(SPK::Vortex::create(SPK::Vector3D(ofGetWidth() / 2, ofGetHeight() / 2),
-		SPK::Vector3D(0, 1, 0),
-		200,
-		10), group);
+	
+	group_wind.setSize(0, ofxSPK::RangeF(30, 50));//粒子の最大の大きさ
+	
+	particle = 1000;
+	count = 0;
 
-	group.reserve(1000);//粒子の発生する量
 }
 
 //--------------------------------------------------------------
-void WindMagic::update() {
-	group.setSize(0, ofxSPK::RangeF(30, 50));//粒子の最大の大きさ
-	group.emitRandom(10, ofVec3f(150 * sin(15 * ofGetElapsedTimef()) + ofGetWidth() / 3, ofGetHeight() / 4 * 3));
-	group.emitRandom(10, ofVec3f(150 * sin(15 * ofGetElapsedTimef()) + ofGetWidth() / 3 * 2, ofGetHeight() / 4 * 3));
+int WindMagic::update() {
+	group_wind.reserve(particle);//粒子の発生する量
+	rot_wind.setup(SPK::Vortex::create(SPK::Vector3D(ofGetMouseX() , ofGetHeight() / 2),
+		SPK::Vector3D(0, 1, 0),
+		200,
+		10), group_wind);
+	group_wind.emitRandom(10, ofVec3f(ofGetMouseX()+ofGetWidth()/10, ofGetHeight() / 4 * 3));
+	group_wind.emitRandom(10, ofVec3f(ofGetMouseX()-ofGetWidth()/10, ofGetHeight() / 4 * 3));
 
-	sys.update();
+	sys_wind.update();
 
-	ofSetWindowTitle(ofToString(ofGetFrameRate()));
+	if (count < 180) {
+		count++;
+
+	}
+	else if (count == 180) {
+		particle -= 10;
+		if (particle == 0) {
+			count = 181;
+			return 1;
+		}
+	}
+	return 0;
 }
 
 //--------------------------------------------------------------
@@ -62,11 +77,11 @@ void WindMagic::draw() {
 	// sys.debugDraw();
 
 	// bind texture, enable point sprite while drawing particles
-	sprite.bind();
+	sprite_wind.bind();
 	ofEnablePointSprites();
-	sys.draw();
+	sys_wind.draw();
 	ofDisablePointSprites();
-	sprite.unbind();
+	sprite_wind.unbind();
 }
 
 

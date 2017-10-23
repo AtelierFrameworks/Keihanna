@@ -1,14 +1,15 @@
 #pragma once
-class FireMagic
+class IceMagic
 {
 public:
 	void setup();
 	int update();
 	void draw();
-	
+
 	int count;
-	int particle ;
+	int particle;
 	int spot[2];
 	int plus;
+	int dirx;
 };
 

@@ -10,36 +10,58 @@ void ofApp::setup(){
 	atelier.init("atelier.png");
 	back.load("background.png");
 	sound.setInstrument();
+
+	zou.load("elephant.png");
+	tori.load("ugu.png");
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-	atelier.update();
+	//bLeft=0　左向き　bLeft=1　右向き
+	bLeft=atelier.update();
 
 	if (color_data == 1) {
-		magic[hall_data].update(hall_data);
+		for (int i = 0; i < 10; i++) {
+			magic[i].update(i);
+		}
 	}
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
+	ofEnableBlendMode(OF_BLENDMODE_ALPHA);
 	back.draw(0, 0, ofGetWidth(), ofGetHeight());
 	atelier.draw();
-
+	zou.draw(1200, 470);
+	tori.draw(1300, 820);
 	if (color_data == 1) {
-		magic[hall_data].draw(hall_data);
+		for (int i = 0; i < 10; i++) {
+			magic[i].draw(i);
+		}
 	}
+
+
+	
 }
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
-	if (key == 'a') {
-		hall_data = 0;
-	}
-	else {
-		hall_data = 1;
+	if (color_data == 1) {
+		if (key == 'a') {
+			hall_data = 0;
+			magic[0].setup(0);
+		}
+		else if(key=='s'){
+			hall_data = 1;
+			magic[1].setup(1);
+		}
+		else if (key == 'd') {
+			hall_data = 2;
+			magic[2].setup(2);
+		}
 	}
 
+	
 
 }
 
