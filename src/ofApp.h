@@ -1,6 +1,8 @@
 #pragma once
-
 #include "ofMain.h"
+#include "ofxEasyFft.h"
+//#include "ofxGui.h"
+
 
 class ofApp : public ofBaseApp{
 
@@ -20,10 +22,10 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
-        ofImage hibi1;
-        ofImage hibi2;
-        ofImage hibi3;
-        ofImage hibi4;
-    float p=0;
-    ofSoundPlayer mySound;
+        ofxEasyFft fft;
+    int mLoudestBand;
+    
+        //ofxPanel gui;
+        //ofxFloatSlider alpha;
+        //ofxFloatSlider saturation;
 };

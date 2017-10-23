@@ -2,49 +2,47 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    ofBackground(255);
-    hibi1.load("1-1.png");
-    hibi2.load("1-2.png");
-    hibi3.load("1-3.png");
-    hibi4.load("1-4.png");
-    
-    mySound.loadSound("glass-break2.mp3");
-    mySound.setLoop(false);
+    ofSetFrameRate(60);
+    //ofSetVerticalSync(true);
+    ofBackground(0);
+    fft.setup(pow(2.0, 10.0));
+    //gui.setup();
+    //gui.add(saturation.setup("Saturation", 127, 0, 255));
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-
-}
+    fft.update();
+    }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    if(p==1){
-        hibi1.draw(0,0);
-    }else if(p==2){
-        hibi2.draw(0,0);
-    }else if(p==3){
-        hibi3.draw(0,0);
-    }else if(p==4){
-        hibi4.draw(0,0);
+    vector<float> buffer;
+    buffer = fft.getBins();
+    ofPushMatrix();
+    ofTranslate(ofGetWidth()/2, ofGetHeight()/2);
+    ofSetLineWidth(ofGetWidth() / float(buffer.size()) / 2.0);
+    ofEnableBlendMode(OF_BLENDMODE_ADD);
+    ofSetCircleResolution(64);
+    for (int i = 0; i < buffer.size(); i++) {
+        // 色を設定
+        float hue = ofMap(i, 0, buffer.size(), 0, 100);
+        float br = ofMap(buffer[i], 0, 1, 0, 200);
+        float radius = ofMap(buffer[i], 0, 1, 0, ofGetHeight() / 2.0);
+        ofColor col;
+        //col.setHsb(hue, saturation, br, alpha); ofSetColor(col);
+        // 右
+        float rx = ofMap(i, 0, buffer.size(), 0, ofGetWidth() / 2.0); ofCircle(rx, 0, radius);
+        // 左
+        float lx = ofMap(i, 0, buffer.size(), 0, -ofGetWidth() / 2.0);
+        ofCircle(lx, 0, radius);
     }
+    ofPopMatrix();
+    //gui.draw();
 }
-
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
-    if(key == 'a'){
-        p=1;
-        mySound.play();
-    }else if(key == 's'){
-        p=2;
-        mySound.play();
-    }else if(key == 'z'){
-        p=3;
-        mySound.play();
-    }else if(key == 'x'){
-        p=4;
-        mySound.play();
-    }
+
 }
 
 //--------------------------------------------------------------
