@@ -1,7 +1,18 @@
 #include "ofApp.h"
+#include "ofxSPK.h"
+#include "Player.hpp"
+
+ofxSPK::System sys;
+ofxSPK::Group group;
+
+ofImage sprite;
+
+ofxSPK::Modifier rot;
 
 //--------------------------------------------------------------
 void ofApp::setup(){
+
+
 	ofSetFrameRate(60);
 	//ofSetFullscreen(true);
 	for (int i = 0; i < 10; i++) {
@@ -13,11 +24,13 @@ void ofApp::setup(){
 
 	zou.load("elephant.png");
 	tori.load("ugu.png");
+
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-	//bLeft=0　左向き　bLeft=1　右向き
+
+	//bLeft=0ﾂ　ﾂ債ｶﾅ津ｼ窶堋ｫﾂ　bLeft=1ﾂ　窶ｰEﾅ津ｼ窶堋ｫ
 	bLeft=atelier.update();
 
 	if (color_data == 1) {
@@ -25,10 +38,12 @@ void ofApp::update(){
 			magic[i].update(i);
 		}
 	}
+
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
+
 	ofEnableBlendMode(OF_BLENDMODE_ALPHA);
 	back.draw(0, 0, ofGetWidth(), ofGetHeight());
 	atelier.draw();
@@ -64,37 +79,37 @@ void ofApp::keyPressed(int key){
 	
 
 }
-
+    
 //--------------------------------------------------------------
 void ofApp::keyReleased(int key){
-
-}
+    }
 
 //--------------------------------------------------------------
 void ofApp::mouseMoved(int x, int y ){
-
+        
 }
-
+    
 //--------------------------------------------------------------
 void ofApp::mouseDragged(int x, int y, int button){
-
+        
 }
-
+    
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button){
-	
+    
+    
 }
 
 //--------------------------------------------------------------
 void ofApp::mouseReleased(int x, int y, int button){
-
+    
 }
 
 //--------------------------------------------------------------
 void ofApp::mouseEntered(int x, int y){
-
+        
 }
-
+    
 //--------------------------------------------------------------
 void ofApp::mouseExited(int x, int y){
 
@@ -114,5 +129,3 @@ void ofApp::gotMessage(ofMessage msg){
 void ofApp::dragEvent(ofDragInfo dragInfo){ 
 
 }
-
-
