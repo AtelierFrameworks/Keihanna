@@ -49,23 +49,23 @@ int FireMagic::update() {
 	if (spot[0] < spot[1]) {
 		plus = ofGetWidth() / 5;
 	}
-	else if (spot[0]>spot[1]) {
+	else if (spot[0] > spot[1]) {
 		plus = -ofGetWidth() / 5;
 	}
 
 
 
 	group_fire.reserve(particle);//ó±éqÇÃî≠ê∂Ç∑ÇÈó 
-	rot_fire.setup(SPK::Vortex::create(SPK::Vector3D(ofGetMouseX()+plus, ofGetHeight() / 2),
+	rot_fire.setup(SPK::Vortex::create(SPK::Vector3D(ofGetMouseX() + plus, ofGetHeight() / 2),
 		SPK::Vector3D(0, 1, 0),
 		200,
 		10), group_fire);
-	group_fire.emitRandom(10, ofVec3f(100 * sin(15 * ofGetElapsedTimef()) + ofGetMouseX() +plus, ofGetHeight() / 4 * 3));
+	group_fire.emitRandom(10, ofVec3f(100 * sin(15 * ofGetElapsedTimef()) + ofGetMouseX() + plus, ofGetHeight() / 4 * 3));
 
 	sys_fire.update();
 	if (count < 180) {
 		count++;
-		
+
 	}
 	else if (count == 180) {
 		particle -= 10;
@@ -76,7 +76,6 @@ int FireMagic::update() {
 	}
 	return 0;
 }
-
 //--------------------------------------------------------------
 void FireMagic::draw() {
 	ofEnableBlendMode(OF_BLENDMODE_ADD);

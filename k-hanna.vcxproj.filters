@@ -181,6 +181,11 @@
     <ClCompile Include="src\WindMagic.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\BallMagic.cpp" />
+    <ClCompile Include="src\IceMagic.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ArduinoManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -465,6 +470,14 @@
       <Filter>addons\ofxSPK\libs\SPARK\include</Filter>
     </ClInclude>
     <ClInclude Include="src\WindMagic.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BallMagic.h" />
+    <ClInclude Include="src\IceMagic.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ArduinoManager.h" />
+    <ClInclude Include="CONST.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
