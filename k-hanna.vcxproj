@@ -171,6 +171,9 @@
     <PostBuildEvent />
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\ArduinoManager.cpp" />
+    <ClCompile Include="src\BallMagic.cpp" />
+    <ClCompile Include="src\IceMagic.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\ofApp.cpp" />
     <ClCompile Include="src\FireMagic.cpp" />
@@ -231,6 +234,10 @@
     <ClCompile Include="src\WindMagic.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CONST.h" />
+    <ClInclude Include="src\ArduinoManager.h" />
+    <ClInclude Include="src\BallMagic.h" />
+    <ClInclude Include="src\IceMagic.h" />
     <ClInclude Include="src\ofApp.h" />
     <ClInclude Include="src\FireMagic.h" />
     <ClInclude Include="src\MagicBase.h" />

@@ -2,6 +2,7 @@
 #include "FireMagic.h"
 #include "WindMagic.h"
 #include "IceMagic.h"
+#include "BallMagic.h"
 class MagicBase
 {
 public:
@@ -12,6 +13,7 @@ public:
 	FireMagic fire;
 	WindMagic wind;
 	IceMagic ice;
+	BallMagic ball;
 
 	int judge=0;
 };

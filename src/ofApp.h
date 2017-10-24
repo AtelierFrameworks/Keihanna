@@ -4,6 +4,7 @@
 #include "Player.h"
 #include "Sound.h"
 #include "MagicBase.h"
+#include "ArduinoManager.h" 
 
 
 class ofApp : public ofBaseApp{
@@ -25,16 +26,24 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 
+		void receiveData(std::vector<CONST::E_SENSOR> & isActionSensor);
+
+
 		ofImage back;
-		Player atelier;
+		Player atelier[4];
+		char costume[20];
+		/*Player piano;
+		Player xylophone;
+		Player guitar;*/
 		Sound sound;
 		MagicBase magic[10];
 
-		int color_data = 1,hall_data=0;
-		bool hall_sensor[10];
+		int color_data = 0,hall_data=1;
 		
-		int bLeft;
+		int bLeft=0;
 
-		ofImage zou;
-		ofImage tori;
+		
+		int alpha=255;
+
+		ArduinoManager mArduino;
 };
