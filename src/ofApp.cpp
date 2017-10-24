@@ -20,18 +20,13 @@ void ofApp::setup(){
 	back.load("background.png");
 	sound.setInstrument();
 
-
-
-	mArduino.setup();
-
-	ofAddListener(mArduino.mSendEvent, this, &ofApp::receiveData);
-
-	
+    mArduino.setup();
+    ofAddListener(mArduino.mSendEvent, this, &ofApp::receiveData);
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-	//bLeft=0　左向き　bLeft=1　右向き
+	//bLeft=0ﾂ　ﾂ債ｶﾅ津ｼ窶堋ｫﾂ　bLeft=1ﾂ　窶ｰEﾅ津ｼ窶堋ｫ
 	//bLeft=atelier.update();
 	/*piano.update();
 	xylophone.update();
@@ -41,12 +36,17 @@ void ofApp::update(){
 	for (int i = 0; i < 4; i++) {
 		atelier[i].update();
 	}
+
+    
+
+
 	
 	for (int i = 0; i < 10; i++) {
 		magic[i].update(i);
 	}
 	
 	mArduino.update();
+
 
 }
 
@@ -253,116 +253,50 @@ void ofApp::dragEvent(ofDragInfo dragInfo){
 
 }
 
-void ofApp::receiveData(std::vector<CONST::E_SENSOR> & isActionSensor) {
 
-
-	ofLogNotice() << "Recieve!" << 0;
-
-
-	for (CONST::E_SENSOR sensor : isActionSensor) {
-
-
-	ofLogNotice() << "RecieveData" << sensor;
-
-	switch (sensor) {
-		case CONST::H1:
-
-			break;
-		case CONST::H2:
-
-			break;
-		case CONST::H3:
-
-			break;
-		case CONST::H4:
-
-
-			break;
-
-
-		case CONST::H5:
-
-
-			break;
-
-
-		case CONST::H6:
-
-
-			break;
-
-
-		case CONST::H7:
-
-
-			break;
-
-
-		case CONST::H8:
-
-
-			break;
-
-
-		case CONST::H9:
-
-
-			break;
-
-
-		case CONST::H10:
-
-
-			break;
-
-
-		case CONST::C_RED:
-
-
-			break;
-
-
-		case CONST::C_GREEN:
-
-
-			break;
-
-
-		case CONST::C_BLUE:
-
-
-			break;
-
-
-		case CONST::C_YELLOW:
-
-
-			break;
-
-
-		case CONST::C_PINK:
-
-
-			break;
-
-
-		case CONST::C_NONE:
-
-
-			break;
-
-
-		default:
-			break;
-
-		}
-
-
-
-	}
-
-
-
+void ofApp:: receiveData(std::vector<CONST::E_SENSOR> & isActionSensor){
+    ofLogNotice() << "Recieve!" << 0;
+    for(CONST::E_SENSOR sensor:isActionSensor){
+        ofLogNotice() << "RecieveData" << sensor;
+    
+    
+    switch(sensor){
+        case CONST::H1:
+            break;
+        case CONST::H2:
+            break;
+        case CONST::H3:
+            break;
+        case CONST::H4:
+            break;
+        case CONST::H5:
+            break;
+        case CONST::H6:
+            break;
+        case CONST::H7:
+            break;
+        case CONST::H8:
+            break;
+        case CONST::H9:
+            break;
+        case CONST::H10:
+            break;
+        case CONST::C_RED:
+            break;
+        case CONST:: C_GREEN:
+            break;
+        case CONST :: C_BLUE:
+            break;
+        case CONST:: C_YELLOW:
+            break;
+        case CONST::C_PINK:
+            break;
+        case CONST::C_NONE:
+            break;
+        default: break;
+    }
+    }
+    
 
 }
 

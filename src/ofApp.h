@@ -4,7 +4,11 @@
 #include "Player.h"
 #include "Sound.h"
 #include "MagicBase.h"
-#include "ArduinoManager.h" 
+
+#include "ArduinoManager.hpp"
+
+
+
 
 
 class ofApp : public ofBaseApp{
@@ -26,7 +30,11 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 
-		void receiveData(std::vector<CONST::E_SENSOR> & isActionSensor);
+    void receiveData(std::vector<CONST::E_SENSOR> & isActionSensor);
+
+
+
+
 
 
 		ofImage back;
@@ -45,5 +53,7 @@ class ofApp : public ofBaseApp{
 		
 		int alpha=255;
 
+
 		ArduinoManager mArduino;
+
 };
