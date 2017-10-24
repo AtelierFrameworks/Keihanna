@@ -129,7 +129,7 @@ void ArduinoManager:: judgeData(){
             //hall
         int modData = data % 2;
             //反応あるかどうか
-            if(modData == 1){
+            if(modData == 0){
                 isPush = true;
                 data = data / 2 -1;
                 sensor = (CONST::E_SENSOR)data;

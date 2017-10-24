@@ -123,6 +123,43 @@ void ofApp:: receiveData(std::vector<CONST::E_SENSOR> & isActionSensor){
     ofLogNotice() << "Recieve!" << 0;
     for(CONST::E_SENSOR sensor:isActionSensor){
         ofLogNotice() << "RecieveData" << sensor;
+    
+    
+    switch(sensor){
+        case CONST::H1:
+            break;
+        case CONST::H2:
+            break;
+        case CONST::H3:
+            break;
+        case CONST::H4:
+            break;
+        case CONST::H5:
+            break;
+        case CONST::H6:
+            break;
+        case CONST::H7:
+            break;
+        case CONST::H8:
+            break;
+        case CONST::H9:
+            break;
+        case CONST::H10:
+            break;
+        case CONST::C_RED:
+            break;
+        case CONST:: C_GREEN:
+            break;
+        case CONST :: C_BLUE:
+            break;
+        case CONST:: C_YELLOW:
+            break;
+        case CONST::C_PINK:
+            break;
+        case CONST::C_NONE:
+            break;
+        default: break;
+    }
     }
     
 }
