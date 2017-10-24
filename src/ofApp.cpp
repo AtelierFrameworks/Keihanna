@@ -13,6 +13,8 @@ void ofApp::setup(){
 
 	zou.load("elephant.png");
 	tori.load("ugu.png");
+    mArduino.setup();
+    ofAddListener(mArduino.mSendEvent, this, &ofApp::receiveData);
 }
 
 //--------------------------------------------------------------
@@ -25,6 +27,8 @@ void ofApp::update(){
 			magic[i].update(i);
 		}
 	}
+    
+    mArduino.update();
 }
 
 //--------------------------------------------------------------
@@ -115,4 +119,11 @@ void ofApp::dragEvent(ofDragInfo dragInfo){
 
 }
 
+void ofApp:: receiveData(std::vector<CONST::E_SENSOR> & isActionSensor){
+    ofLogNotice() << "Recieve!" << 0;
+    for(CONST::E_SENSOR sensor:isActionSensor){
+        ofLogNotice() << "RecieveData" << sensor;
+    }
+    
+}
 

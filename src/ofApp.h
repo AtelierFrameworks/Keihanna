@@ -4,7 +4,7 @@
 #include "Player.h"
 #include "Sound.h"
 #include "MagicBase.h"
-
+#include "ArduinoManager.hpp"
 
 class ofApp : public ofBaseApp{
 
@@ -24,7 +24,7 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
-
+    void receiveData(std::vector<CONST::E_SENSOR> & isActionSensor);
 		ofImage back;
 		Player atelier;
 		Sound sound;
@@ -37,4 +37,6 @@ class ofApp : public ofBaseApp{
 
 		ofImage zou;
 		ofImage tori;
+    
+    ArduinoManager mArduino;
 };
