@@ -462,7 +462,7 @@ void ofApp:: receiveData(std::vector<CONST::E_SENSOR> & isActionSensor){
             color_data=1;
             break;
         case CONST::C_PINK:
-            color_data=4
+            color_data=4;
             break;
         case CONST::C_NONE:
             break;

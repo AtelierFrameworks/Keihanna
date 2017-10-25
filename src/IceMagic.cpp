@@ -15,7 +15,7 @@ void IceMagic::setup() {
 	// and turn off arb texture option while loading
 
 	ofDisableArbTex();
-	sprite_ice.loadImage("ice.png");
+	sprite_ice.load("ice.png");
 	ofEnableArbTex();
 
 	ofSetFrameRate(60);

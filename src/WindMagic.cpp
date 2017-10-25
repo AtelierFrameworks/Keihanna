@@ -16,7 +16,7 @@ void WindMagic::setup() {
 	// and turn off arb texture option while loading
 	
 	ofDisableArbTex();
-	sprite_wind.loadImage("wind1.png");
+	sprite_wind.load("wind1.png");
 	ofEnableArbTex();
 
 	ofSetFrameRate(60);

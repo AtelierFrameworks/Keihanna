@@ -19,10 +19,10 @@ void Animal::setup(int _tone) {
 
 void Animal::update() {
     if(dir==0){
-        x-=1;
+        x-=3;
     }
     else{
-        x+=1;
+        x+=3;
     }
 }
 void Animal::draw() {

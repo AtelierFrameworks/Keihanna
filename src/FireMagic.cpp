@@ -14,7 +14,7 @@ void FireMagic::setup() {
 	// NOTES: the texture size must be Power of Two,
 	// and turn off arb texture option while loading
 	ofDisableArbTex();
-	sprite_fire.loadImage("fire1.png");
+	sprite_fire.load("fire1.png");
 	ofEnableArbTex();
 
 	ofSetFrameRate(60);
