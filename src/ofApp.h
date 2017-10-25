@@ -5,13 +5,16 @@
 #include "Player.h"
 #include "Sound.h"
 #include "MagicBase.h"
+#include "Animal.h"
 
 #include "ArduinoManager.hpp"
 class ofApp : public ofBaseApp{
 
 	public:
 		void setup();
+    void setupThunder();
 		void update();
+    
 		void draw();
 
 		void keyPressed(int key);
@@ -25,19 +28,15 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
-
+  void receiveData(std::vector<CONST::E_SENSOR> & isActionSensor);
     ofImage kami;
     ofImage back;
     float p=0;
     bool mouse;
-    ofSoundPlayer mySound; 
-
-    
-
-    void receiveData(std::vector<CONST::E_SENSOR> & isActionSensor);
-		ofImage back;
+    ofSoundPlayer ThunderSound;
+  
 		Player atelier[4];
-		
+        Animal animals[10];
 		/*Player piano;
 		Player xylophone;
 		Player guitar;*/

@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0039A9B9F44C2310B866E0B9 /* SPK_System.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EF5CFECAD6B7DD015A4A945 /* SPK_System.cpp */; };
+		0609918EF868B7AA98236821 /* SPK_RandomEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D2BD97573DD7768D228CA2A /* SPK_RandomEmitter.cpp */; };
+		092B491910352123B34626C2 /* FireMagic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 161B47C3BBAF8E2DFBAD0B08 /* FireMagic.cpp */; };
+		0C6F508761FB84DF23A0713A /* ofxSPKSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80AB12A5530A5D1D883F228A /* ofxSPKSystem.cpp */; };
+		170DFA0DC5CDD406F4012E48 /* SPK_SphericEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24885F4AE024FC58CF32C998 /* SPK_SphericEmitter.cpp */; };
+		1AD8351F4BA098449DDDF6DF /* SPK_GLLineRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5346A4CBC424C3C3DB7CFA70 /* SPK_GLLineRenderer.cpp */; };
+		1D979B02494EA3A69D6E2F31 /* ofxSPKEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9430A5726F7AD1D28D1648C5 /* ofxSPKEmitter.cpp */; };
+		243E3BDC6510A6DE8E664DB7 /* SPK_Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8788F777A4B563A7E61307E /* SPK_Particle.cpp */; };
+		253AB1F4A37B6B94CC907031 /* SPK_Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39F27D364F30430CF91599B6 /* SPK_Point.cpp */; };
+		2A65F2AEEC63A4E6BDA5692A /* ofxSPKUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2402CB844A8DB80C4759F93 /* ofxSPKUtils.cpp */; };
+		2B88BD8A3EDA49D6524D40B8 /* SPK_GLPointRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27988F927D26D7E5CDA8361 /* SPK_GLPointRenderer.cpp */; };
+		316588C495727412057CAA02 /* SPK_Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9A1E00568D9C56343C64D57 /* SPK_Sphere.cpp */; };
+		34AF22B198FD2E66E524D0BE /* SPK_GLExtHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C83A73F9F59F5D1C4E68DEF4 /* SPK_GLExtHandler.cpp */; };
+		3CA4F5B3DA20978E716FD780 /* SPK_Factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D78C83CE590AD100424E5534 /* SPK_Factory.cpp */; };
+		3EC42BC0A171135E9674B2DB /* SPK_Line.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF272C80C451E5D445CFC18D /* SPK_Line.cpp */; };
+		3FD0DDEC8CD9A211F445464E /* SPK_QuadRendererInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F783D3418D9672A113822F9 /* SPK_QuadRendererInterface.cpp */; };
+		3FF2CBF83AEB2F90006BCA21 /* MagicBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FADEDFF9BC42945B98A800E9 /* MagicBase.cpp */; };
+		433F2BE16791997CA5B0D26F /* SPK_Vector3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6D659C415F177EF217E6EE1 /* SPK_Vector3D.cpp */; };
+		4543715FD1857583D1827340 /* SPK_Ring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6631F7D723E0E67E9A090BBA /* SPK_Ring.cpp */; };
+		47FCF8DE10C5FC53B6A7047B /* SPK_Oriented3DRendererInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB82E76303C7D850BB2DF465 /* SPK_Oriented3DRendererInterface.cpp */; };
+		4C4F3B19E65C50868C90C409 /* SPK_Group.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D274781FB54C60722951DC6 /* SPK_Group.cpp */; };
+		4F42A3FFB25AD754818456D0 /* ofxSPKZone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FF1593935A2A2156B73BF40 /* ofxSPKZone.cpp */; };
+		501418882CF39168BCCB7996 /* BallMagic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 693F2E1D094F9B775CBF476F /* BallMagic.cpp */; };
+		5D6232F29ACA58AA2F327825 /* SPK_Registerable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D410894387F9A6ECB2EE066 /* SPK_Registerable.cpp */; };
+		5DA5A147971AEDAD70E14342 /* ofxSPKModifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AA3F14DF138D9015E87FD6B /* ofxSPKModifier.cpp */; };
+		5ECE1622A9BE7BFFE804F9B2 /* SPK_Zone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 536777107EBCA60FF4BA243A /* SPK_Zone.cpp */; };
+		606C43C3F3FF9F34FC11B52A /* SPK_ZoneUnion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67FE12B08F004BCA79F0DB82 /* SPK_ZoneUnion.cpp */; };
+		648E969D7BC0432CA127EC2C /* SPK_StraightEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6BF8D941DF38845A9B35B42 /* SPK_StraightEmitter.cpp */; };
+		68055DB76D18B0692C4B1C51 /* SPK_Transformable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81BE523D8D8B8A250AFE0665 /* SPK_Transformable.cpp */; };
+		6982FB74AA8DDB3F5C5E1C68 /* SPK_Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FCEA5707EF98300760E07F8 /* SPK_Renderer.cpp */; };
+		6C8551DB2C641E610EA107BE /* Sound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADBBA9C0BFE51E5257D4E881 /* Sound.cpp */; };
+		7255F2C21B445605A1ED5B4D /* SPK_NormalEmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07C7833BF635DCD82B222E41 /* SPK_NormalEmitter.cpp */; };
+		8115B3FACAA472E082E5470F /* SPK_Interpolator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C3E905B824E052B19D39CF9 /* SPK_Interpolator.cpp */; };
+		8537852B0CBA1BD069870BB8 /* SPK_GLQuadRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD37835C1BCDE6AD5A2BEA /* SPK_GLQuadRenderer.cpp */; };
+		865EE4C3E2B3C455E34B01A1 /* SPK_LinearForce.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AB53F4D0BF24EAC5FF8D1FE /* SPK_LinearForce.cpp */; };
+		887816D9BACFF5159601953B /* WindMagic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 436F3239B43788675A353142 /* WindMagic.cpp */; };
+		8B95BD05B95ABC0E2639048A /* SPK_Vortex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D06477F56EEFAC4943A096E /* SPK_Vortex.cpp */; };
+		8C786BE5D2CF303A936CE462 /* SPK_ModifierGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 630FCEA786DD162DAD153352 /* SPK_ModifierGroup.cpp */; };
+		8CFF4365589B89A1F1A5D7C0 /* ofxSPKGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 699FE89C9DD8794AE7519252 /* ofxSPKGroup.cpp */; };
+		92F802D89DB86DE809BFDA65 /* SPK_Destroyer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24860892BFF876E396736CB0 /* SPK_Destroyer.cpp */; };
+		94E1E5E083FA9347F3105228 /* SPK_GLRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0847B1DDAFAADD346BCAB929 /* SPK_GLRenderer.cpp */; };
+		96D1D03B6EFBFD72F286F048 /* SPK_AABox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6780EDFD78849F838482DE88 /* SPK_AABox.cpp */; };
+		97E9A0CF33A492981DB23E7D /* SPK_ZoneIntersection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 400989ED21748F97088F38CC /* SPK_ZoneIntersection.cpp */; };
+		9DA9EA5240C0A38D6EC0DD2E /* ArduinoManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7922271EF88E06825BD7F490 /* ArduinoManager.cpp */; };
+		ABD2D9432788B16FDD3FE7AE /* SPK_Modifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F592BF3AD191A07DF5FA552D /* SPK_Modifier.cpp */; };
+		B49861C9E560847222F0F4DA /* SPK_Obstacle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D11F820A5FCCF86C0F3F69D4 /* SPK_Obstacle.cpp */; };
+		B5DE12EA79D2B23E93D95CDD /* SPK_GLLineTrailRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 91465CA27A75F29512CE8C83 /* SPK_GLLineTrailRenderer.cpp */; };
+		BDC41569095EAB460B0D22B0 /* ofxSPKRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AE579F4216AC60A4F06FEBD /* ofxSPKRenderer.cpp */; };
+		BDFBC47F8FF5D2155856F361 /* SPK_PointMass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D09E693F0016B02155425AF /* SPK_PointMass.cpp */; };
+		C0891DE19C8415335A373AD8 /* SPK_BufferHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF664DA3D5EC3F44C616408E /* SPK_BufferHandler.cpp */; };
+		C1F4CC8D82D0CC6E1934C3D2 /* SPK_Model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 046191569B21DA5A87CD6EBE /* SPK_Model.cpp */; };
+		C383FC86948DEE64BD0DFCDC /* SPK_Collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60E2BEB8A19434CF1524A356 /* SPK_Collision.cpp */; };
+		C9209746371A876B3E0B75CD /* IceMagic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9036C7965A66B29658ECD029 /* IceMagic.cpp */; };
+		CAB123D8E1A8E2EA8245350E /* ofxSPK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E18AE0DEDF6F11F309934360 /* ofxSPK.cpp */; };
+		CB70B178311B16CC26AC0B3E /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7B46A3AD8E3B2B2B99C0D3D /* Player.cpp */; };
+		DA36754E828A813C60CE8AD8 /* Animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCB0EC0D9B7154C4B552CE23 /* Animal.cpp */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
+		E5AA4FDC50C66DA4A5161B67 /* SPK_Emitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62A79EBE5EA4DE50A9EA6DAA /* SPK_Emitter.cpp */; };
+		F2DAF7B1BF9E4366B0C3AD5F /* SPK_DEF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95F84F687A53AF5D42C7B5BE /* SPK_DEF.cpp */; };
+		F7C27C27F7C7BAD83E2A8FE0 /* SPK_Plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69455498830B11EE82AD03AF /* SPK_Plane.cpp */; };
+		F930F879DBD59A5D056B5A07 /* SPK_Cylinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C51A3571CCD2FFAA41647F2E /* SPK_Cylinder.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		033D249F2B76A349842D2F76 /* SPK_GLPointRenderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_GLPointRenderer.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/RenderingAPIs/OpenGL/SPK_GLPointRenderer.h; sourceTree = SOURCE_ROOT; };
+		046191569B21DA5A87CD6EBE /* SPK_Model.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Model.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Core/SPK_Model.cpp; sourceTree = SOURCE_ROOT; };
+		07C7833BF635DCD82B222E41 /* SPK_NormalEmitter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_NormalEmitter.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Emitters/SPK_NormalEmitter.cpp; sourceTree = SOURCE_ROOT; };
+		0847B1DDAFAADD346BCAB929 /* SPK_GLRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_GLRenderer.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/RenderingAPIs/OpenGL/SPK_GLRenderer.cpp; sourceTree = SOURCE_ROOT; };
+		0B16E187D7596F58383F55C1 /* SPK_Oriented3DRendererInterface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Oriented3DRendererInterface.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Renderers/SPK_Oriented3DRendererInterface.h; sourceTree = SOURCE_ROOT; };
+		0C3E905B824E052B19D39CF9 /* SPK_Interpolator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Interpolator.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Core/SPK_Interpolator.cpp; sourceTree = SOURCE_ROOT; };
+		0D06477F56EEFAC4943A096E /* SPK_Vortex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Vortex.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Modifiers/SPK_Vortex.cpp; sourceTree = SOURCE_ROOT; };
+		0E73BAEEDC19A2DCE41CF344 /* SPK_PointRendererInterface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_PointRendererInterface.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Renderers/SPK_PointRendererInterface.h; sourceTree = SOURCE_ROOT; };
+		0EEF15888B04038FAE4491A1 /* SPK_Zone.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Zone.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core/SPK_Zone.h; sourceTree = SOURCE_ROOT; };
+		11BCAC4A7A3C85957BAFF028 /* SPK_Line.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Line.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Zones/SPK_Line.h; sourceTree = SOURCE_ROOT; };
+		161B47C3BBAF8E2DFBAD0B08 /* FireMagic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = FireMagic.cpp; path = src/FireMagic.cpp; sourceTree = SOURCE_ROOT; };
+		18807A65B69BBEA01255ABE7 /* SPK_Particle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Particle.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core/SPK_Particle.h; sourceTree = SOURCE_ROOT; };
+		1A2246C8D6A405B57C82766B /* SPK_AABox.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_AABox.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Zones/SPK_AABox.h; sourceTree = SOURCE_ROOT; };
+		1A2CA8569F3F4C4E27D4F9ED /* SPK_LineRendererInterface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_LineRendererInterface.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Renderers/SPK_LineRendererInterface.h; sourceTree = SOURCE_ROOT; };
+		1B3979933F925CE1E6B63614 /* SPK_Destroyer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Destroyer.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Modifiers/SPK_Destroyer.h; sourceTree = SOURCE_ROOT; };
+		1D410894387F9A6ECB2EE066 /* SPK_Registerable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Registerable.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Core/SPK_Registerable.cpp; sourceTree = SOURCE_ROOT; };
+		1D76AC896E6CE34156FC28CA /* SPK_Sphere.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Sphere.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Zones/SPK_Sphere.h; sourceTree = SOURCE_ROOT; };
+		1FCEA5707EF98300760E07F8 /* SPK_Renderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Renderer.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Core/SPK_Renderer.cpp; sourceTree = SOURCE_ROOT; };
+		20BEB7E6C8113089F84DECEA /* SPK_Cylinder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Cylinder.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Zones/SPK_Cylinder.h; sourceTree = SOURCE_ROOT; };
+		24860892BFF876E396736CB0 /* SPK_Destroyer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Destroyer.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Modifiers/SPK_Destroyer.cpp; sourceTree = SOURCE_ROOT; };
+		24885F4AE024FC58CF32C998 /* SPK_SphericEmitter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_SphericEmitter.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Emitters/SPK_SphericEmitter.cpp; sourceTree = SOURCE_ROOT; };
+		24E3E1C04829E49F2BC57F77 /* SPK_BufferHandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_BufferHandler.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core/SPK_BufferHandler.h; sourceTree = SOURCE_ROOT; };
+		26596D89165599FF771FCBCF /* SPK_Buffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Buffer.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core/SPK_Buffer.h; sourceTree = SOURCE_ROOT; };
+		2809259EBFF7E76281E392BB /* SPK_GLRenderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_GLRenderer.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/RenderingAPIs/OpenGL/SPK_GLRenderer.h; sourceTree = SOURCE_ROOT; };
+		287FDA1B64736FE21DD726F3 /* SPK_ModifierGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_ModifierGroup.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Modifiers/SPK_ModifierGroup.h; sourceTree = SOURCE_ROOT; };
+		2C35B8E0C83D946105402A1E /* ofxSPKRenderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSPKRenderer.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/src/ofxSPKRenderer.h; sourceTree = SOURCE_ROOT; };
+		2D6EED579651A82DEC6F4F69 /* SPK.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/SPK.h; sourceTree = SOURCE_ROOT; };
+		337A9E31CC000D8B296F7247 /* SPK_Obstacle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Obstacle.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Modifiers/SPK_Obstacle.h; sourceTree = SOURCE_ROOT; };
+		340FB9B5F814F709C6330477 /* SPK_Vector3D.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Vector3D.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core/SPK_Vector3D.h; sourceTree = SOURCE_ROOT; };
+		39F27D364F30430CF91599B6 /* SPK_Point.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Point.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Zones/SPK_Point.cpp; sourceTree = SOURCE_ROOT; };
+		3AA3F14DF138D9015E87FD6B /* ofxSPKModifier.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSPKModifier.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/src/ofxSPKModifier.cpp; sourceTree = SOURCE_ROOT; };
+		3AB53F4D0BF24EAC5FF8D1FE /* SPK_LinearForce.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_LinearForce.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Modifiers/SPK_LinearForce.cpp; sourceTree = SOURCE_ROOT; };
+		3B7F3BCDF9851C1A837E8E7B /* ofxSPKSystem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSPKSystem.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/src/ofxSPKSystem.h; sourceTree = SOURCE_ROOT; };
+		3C0FDE2642A1706CE8DE4470 /* SPK_Collision.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Collision.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Modifiers/SPK_Collision.h; sourceTree = SOURCE_ROOT; };
+		3E8911C6B8ABF8D32A950348 /* Sound.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Sound.h; path = src/Sound.h; sourceTree = SOURCE_ROOT; };
+		3EF5CFECAD6B7DD015A4A945 /* SPK_System.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_System.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Core/SPK_System.cpp; sourceTree = SOURCE_ROOT; };
+		3F783D3418D9672A113822F9 /* SPK_QuadRendererInterface.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_QuadRendererInterface.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Renderers/SPK_QuadRendererInterface.cpp; sourceTree = SOURCE_ROOT; };
+		400989ED21748F97088F38CC /* SPK_ZoneIntersection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_ZoneIntersection.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Zones/SPK_ZoneIntersection.cpp; sourceTree = SOURCE_ROOT; };
+		436F3239B43788675A353142 /* WindMagic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = WindMagic.cpp; path = src/WindMagic.cpp; sourceTree = SOURCE_ROOT; };
+		438C3CB57AC640287497A628 /* SPK_Point.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Point.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Zones/SPK_Point.h; sourceTree = SOURCE_ROOT; };
+		461501F279C7AC098D0AE9F0 /* SPK_GLLineTrailRenderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_GLLineTrailRenderer.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/RenderingAPIs/OpenGL/SPK_GLLineTrailRenderer.h; sourceTree = SOURCE_ROOT; };
+		463E15C8E01E8F9A98B5329E /* SPK_Plane.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Plane.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Zones/SPK_Plane.h; sourceTree = SOURCE_ROOT; };
+		46D9B1C11520863DC5C71558 /* SPK_StaticEmitter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_StaticEmitter.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Emitters/SPK_StaticEmitter.h; sourceTree = SOURCE_ROOT; };
+		4BF011132E2CE7EF1EA727B4 /* SPK_DEF.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_DEF.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core/SPK_DEF.h; sourceTree = SOURCE_ROOT; };
+		4C38576D66C8E82AAA8C5C0F /* ofxSPKGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSPKGroup.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/src/ofxSPKGroup.h; sourceTree = SOURCE_ROOT; };
+		5346A4CBC424C3C3DB7CFA70 /* SPK_GLLineRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_GLLineRenderer.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/RenderingAPIs/OpenGL/SPK_GLLineRenderer.cpp; sourceTree = SOURCE_ROOT; };
+		536777107EBCA60FF4BA243A /* SPK_Zone.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Zone.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Core/SPK_Zone.cpp; sourceTree = SOURCE_ROOT; };
+		5480DB2511D4C5EBEFD075AB /* SPK_LinearForce.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_LinearForce.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Modifiers/SPK_LinearForce.h; sourceTree = SOURCE_ROOT; };
+		562FEBCC3708DC3DFE58502B /* SPK_ZoneIntersection.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_ZoneIntersection.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Zones/SPK_ZoneIntersection.h; sourceTree = SOURCE_ROOT; };
+		5A97C7F37F616C5217F33C1E /* MagicBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = MagicBase.h; path = src/MagicBase.h; sourceTree = SOURCE_ROOT; };
+		5DDFD158BDE7A2F5480DD703 /* SPK_QuadRendererInterface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_QuadRendererInterface.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Renderers/SPK_QuadRendererInterface.h; sourceTree = SOURCE_ROOT; };
+		5F67DFD574629B924F1E1711 /* SPK_ZoneUnion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_ZoneUnion.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Zones/SPK_ZoneUnion.h; sourceTree = SOURCE_ROOT; };
+		60E2BEB8A19434CF1524A356 /* SPK_Collision.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Collision.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Modifiers/SPK_Collision.cpp; sourceTree = SOURCE_ROOT; };
+		60E939BABB78E2BF0B97EB46 /* ofxSPK.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSPK.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/src/ofxSPK.h; sourceTree = SOURCE_ROOT; };
+		62A79EBE5EA4DE50A9EA6DAA /* SPK_Emitter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Emitter.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Core/SPK_Emitter.cpp; sourceTree = SOURCE_ROOT; };
+		630FCEA786DD162DAD153352 /* SPK_ModifierGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_ModifierGroup.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Modifiers/SPK_ModifierGroup.cpp; sourceTree = SOURCE_ROOT; };
+		63787EF0957ECF879521CF5E /* ofxSPKModifier.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSPKModifier.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/src/ofxSPKModifier.h; sourceTree = SOURCE_ROOT; };
+		6631F7D723E0E67E9A090BBA /* SPK_Ring.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Ring.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Zones/SPK_Ring.cpp; sourceTree = SOURCE_ROOT; };
+		6780EDFD78849F838482DE88 /* SPK_AABox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_AABox.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Zones/SPK_AABox.cpp; sourceTree = SOURCE_ROOT; };
+		67FE12B08F004BCA79F0DB82 /* SPK_ZoneUnion.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_ZoneUnion.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Zones/SPK_ZoneUnion.cpp; sourceTree = SOURCE_ROOT; };
+		693F2E1D094F9B775CBF476F /* BallMagic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BallMagic.cpp; path = src/BallMagic.cpp; sourceTree = SOURCE_ROOT; };
+		69455498830B11EE82AD03AF /* SPK_Plane.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Plane.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Zones/SPK_Plane.cpp; sourceTree = SOURCE_ROOT; };
+		699FE89C9DD8794AE7519252 /* ofxSPKGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSPKGroup.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/src/ofxSPKGroup.cpp; sourceTree = SOURCE_ROOT; };
+		6C5CD16D744D770847D1DC03 /* SPK_Modifier.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Modifier.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core/SPK_Modifier.h; sourceTree = SOURCE_ROOT; };
+		6D04D5F4751E88997C4931A9 /* SPK_Model.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Model.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core/SPK_Model.h; sourceTree = SOURCE_ROOT; };
+		6D2BD97573DD7768D228CA2A /* SPK_RandomEmitter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_RandomEmitter.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Emitters/SPK_RandomEmitter.cpp; sourceTree = SOURCE_ROOT; };
+		6FCD37835C1BCDE6AD5A2BEA /* SPK_GLQuadRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_GLQuadRenderer.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/RenderingAPIs/OpenGL/SPK_GLQuadRenderer.cpp; sourceTree = SOURCE_ROOT; };
+		74D35026CF84BECD549E227F /* ArduinoManager.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ArduinoManager.hpp; path = src/ArduinoManager.hpp; sourceTree = SOURCE_ROOT; };
+		7922271EF88E06825BD7F490 /* ArduinoManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ArduinoManager.cpp; path = src/ArduinoManager.cpp; sourceTree = SOURCE_ROOT; };
+		7C15EC5EDE2AC05398F188E3 /* SPK_System.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_System.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core/SPK_System.h; sourceTree = SOURCE_ROOT; };
+		7C607842CA52249918DF24C6 /* SPK_Transformable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Transformable.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core/SPK_Transformable.h; sourceTree = SOURCE_ROOT; };
+		7E155DE0A1926296E7F4AABF /* SPK_GLExtHandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_GLExtHandler.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/RenderingAPIs/OpenGL/SPK_GLExtHandler.h; sourceTree = SOURCE_ROOT; };
+		80AB12A5530A5D1D883F228A /* ofxSPKSystem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSPKSystem.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/src/ofxSPKSystem.cpp; sourceTree = SOURCE_ROOT; };
+		81BE523D8D8B8A250AFE0665 /* SPK_Transformable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Transformable.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Core/SPK_Transformable.cpp; sourceTree = SOURCE_ROOT; };
+		8668A5720E7B159E5BC7ADBD /* ofxSPKUtils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSPKUtils.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/src/ofxSPKUtils.h; sourceTree = SOURCE_ROOT; };
+		87815A2D43840AAB3B5532D1 /* SPK_Renderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Renderer.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core/SPK_Renderer.h; sourceTree = SOURCE_ROOT; };
+		8AE579F4216AC60A4F06FEBD /* ofxSPKRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSPKRenderer.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/src/ofxSPKRenderer.cpp; sourceTree = SOURCE_ROOT; };
+		8B5F16F746E2D09F0C847572 /* SPK_ArrayBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_ArrayBuffer.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core/SPK_ArrayBuffer.h; sourceTree = SOURCE_ROOT; };
+		9036C7965A66B29658ECD029 /* IceMagic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = IceMagic.cpp; path = src/IceMagic.cpp; sourceTree = SOURCE_ROOT; };
+		90B5E7E11F40F6F0C4950362 /* BallMagic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = BallMagic.h; path = src/BallMagic.h; sourceTree = SOURCE_ROOT; };
+		90E35A657E1D60B71DA850BD /* SPK_Factory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Factory.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core/SPK_Factory.h; sourceTree = SOURCE_ROOT; };
+		91465CA27A75F29512CE8C83 /* SPK_GLLineTrailRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_GLLineTrailRenderer.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/RenderingAPIs/OpenGL/SPK_GLLineTrailRenderer.cpp; sourceTree = SOURCE_ROOT; };
+		9430A5726F7AD1D28D1648C5 /* ofxSPKEmitter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSPKEmitter.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/src/ofxSPKEmitter.cpp; sourceTree = SOURCE_ROOT; };
+		95F84F687A53AF5D42C7B5BE /* SPK_DEF.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_DEF.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Core/SPK_DEF.cpp; sourceTree = SOURCE_ROOT; };
+		9718DD7E0F6BC748A640BD4C /* IceMagic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IceMagic.h; path = src/IceMagic.h; sourceTree = SOURCE_ROOT; };
+		9D09E693F0016B02155425AF /* SPK_PointMass.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_PointMass.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Modifiers/SPK_PointMass.cpp; sourceTree = SOURCE_ROOT; };
+		9D274781FB54C60722951DC6 /* SPK_Group.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Group.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Core/SPK_Group.cpp; sourceTree = SOURCE_ROOT; };
+		9FB115FAF22CEE6E2542532B /* SPK_StraightEmitter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_StraightEmitter.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Emitters/SPK_StraightEmitter.h; sourceTree = SOURCE_ROOT; };
+		9FF1593935A2A2156B73BF40 /* ofxSPKZone.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSPKZone.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/src/ofxSPKZone.cpp; sourceTree = SOURCE_ROOT; };
+		A0F77589501DC5FF1CCB059D /* Animal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Animal.h; path = src/Animal.h; sourceTree = SOURCE_ROOT; };
+		A19F36B0E8FA55014435DE90 /* CONST.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = CONST.hpp; path = src/CONST.hpp; sourceTree = SOURCE_ROOT; };
+		A5D7E6D8DB79DC13284B0A4D /* WindMagic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = WindMagic.h; path = src/WindMagic.h; sourceTree = SOURCE_ROOT; };
+		A603074D31EDDE9BF3332473 /* SPK_PointMass.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_PointMass.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Modifiers/SPK_PointMass.h; sourceTree = SOURCE_ROOT; };
+		A6A0B5976D4BF672981513D0 /* SPK_SphericEmitter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_SphericEmitter.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Emitters/SPK_SphericEmitter.h; sourceTree = SOURCE_ROOT; };
+		A7B46A3AD8E3B2B2B99C0D3D /* Player.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Player.cpp; path = src/Player.cpp; sourceTree = SOURCE_ROOT; };
+		A837538A506CA52AF2214190 /* Player.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Player.h; path = src/Player.h; sourceTree = SOURCE_ROOT; };
+		AACD9B42DDE11A4800D30268 /* SPK_RandomEmitter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_RandomEmitter.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Emitters/SPK_RandomEmitter.h; sourceTree = SOURCE_ROOT; };
+		ADBBA9C0BFE51E5257D4E881 /* Sound.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Sound.cpp; path = src/Sound.cpp; sourceTree = SOURCE_ROOT; };
+		B8D1E443CE398EDBCDB04069 /* SPK_Interpolator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Interpolator.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core/SPK_Interpolator.h; sourceTree = SOURCE_ROOT; };
+		BB6466458044BA4B2FAEAECE /* SPK_GLQuadRenderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_GLQuadRenderer.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/RenderingAPIs/OpenGL/SPK_GLQuadRenderer.h; sourceTree = SOURCE_ROOT; };
+		BF664DA3D5EC3F44C616408E /* SPK_BufferHandler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_BufferHandler.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Core/SPK_BufferHandler.cpp; sourceTree = SOURCE_ROOT; };
+		BFB18FA1C119767D1B787FC6 /* ofxSPKZone.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSPKZone.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/src/ofxSPKZone.h; sourceTree = SOURCE_ROOT; };
+		C16C7C819CCBC1A730A9419C /* SPK_GL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_GL.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/SPK_GL.h; sourceTree = SOURCE_ROOT; };
+		C389609AB0D3BDEF9FF207AA /* SPK_NormalEmitter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_NormalEmitter.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Emitters/SPK_NormalEmitter.h; sourceTree = SOURCE_ROOT; };
+		C51A3571CCD2FFAA41647F2E /* SPK_Cylinder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Cylinder.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Zones/SPK_Cylinder.cpp; sourceTree = SOURCE_ROOT; };
+		C6D659C415F177EF217E6EE1 /* SPK_Vector3D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Vector3D.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Core/SPK_Vector3D.cpp; sourceTree = SOURCE_ROOT; };
+		C83A73F9F59F5D1C4E68DEF4 /* SPK_GLExtHandler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_GLExtHandler.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/RenderingAPIs/OpenGL/SPK_GLExtHandler.cpp; sourceTree = SOURCE_ROOT; };
+		CA113B970558994AED22E874 /* SPK_Pool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Pool.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core/SPK_Pool.h; sourceTree = SOURCE_ROOT; };
+		CC891C72A62AD6A860F6B645 /* SPK_Oriented2DRendererInterface.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Oriented2DRendererInterface.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Renderers/SPK_Oriented2DRendererInterface.h; sourceTree = SOURCE_ROOT; };
+		CCB0EC0D9B7154C4B552CE23 /* Animal.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Animal.cpp; path = src/Animal.cpp; sourceTree = SOURCE_ROOT; };
+		CEEE1399B21FA25BE165AC15 /* SPK_Registerable.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Registerable.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core/SPK_Registerable.h; sourceTree = SOURCE_ROOT; };
+		D11F820A5FCCF86C0F3F69D4 /* SPK_Obstacle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Obstacle.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Modifiers/SPK_Obstacle.cpp; sourceTree = SOURCE_ROOT; };
+		D27988F927D26D7E5CDA8361 /* SPK_GLPointRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_GLPointRenderer.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/RenderingAPIs/OpenGL/SPK_GLPointRenderer.cpp; sourceTree = SOURCE_ROOT; };
+		D78C83CE590AD100424E5534 /* SPK_Factory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Factory.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Core/SPK_Factory.cpp; sourceTree = SOURCE_ROOT; };
+		DAA0CA1084F391C78B812DEA /* FireMagic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = FireMagic.h; path = src/FireMagic.h; sourceTree = SOURCE_ROOT; };
+		DAF516AD443D4A010C05CC4B /* SPK_RegWrapper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_RegWrapper.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core/SPK_RegWrapper.h; sourceTree = SOURCE_ROOT; };
+		DB82E76303C7D850BB2DF465 /* SPK_Oriented3DRendererInterface.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Oriented3DRendererInterface.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Renderers/SPK_Oriented3DRendererInterface.cpp; sourceTree = SOURCE_ROOT; };
+		DC89DCED90E65C1CF82FCE49 /* SPK_Group.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Group.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core/SPK_Group.h; sourceTree = SOURCE_ROOT; };
+		DCE1D77EB8B65FF5692276F6 /* SPK_Vortex.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Vortex.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Modifiers/SPK_Vortex.h; sourceTree = SOURCE_ROOT; };
+		E18AE0DEDF6F11F309934360 /* ofxSPK.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSPK.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/src/ofxSPK.cpp; sourceTree = SOURCE_ROOT; };
+		E244214339EAC7EBF893C8A6 /* SPK_Rotator.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Rotator.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Modifiers/SPK_Rotator.h; sourceTree = SOURCE_ROOT; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../Desktop/of_v0.9.8_osx_release/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* KeihannaDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeihannaDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../Desktop/of_v0.9.8_osx_release/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		E6BF8D941DF38845A9B35B42 /* SPK_StraightEmitter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_StraightEmitter.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Emitters/SPK_StraightEmitter.cpp; sourceTree = SOURCE_ROOT; };
+		E70F2BDAD8DEE25E75859AF0 /* SPK_Emitter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Emitter.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core/SPK_Emitter.h; sourceTree = SOURCE_ROOT; };
+		E9A1E00568D9C56343C64D57 /* SPK_Sphere.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Sphere.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Zones/SPK_Sphere.cpp; sourceTree = SOURCE_ROOT; };
+		EB1FCB09B58F52944F90E4D8 /* SPK_Ring.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_Ring.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Zones/SPK_Ring.h; sourceTree = SOURCE_ROOT; };
+		EC62A1FD42814CCB54BBFE44 /* ofxSPKEmitter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSPKEmitter.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/src/ofxSPKEmitter.h; sourceTree = SOURCE_ROOT; };
+		EF272C80C451E5D445CFC18D /* SPK_Line.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Line.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Zones/SPK_Line.cpp; sourceTree = SOURCE_ROOT; };
+		F2402CB844A8DB80C4759F93 /* ofxSPKUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSPKUtils.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/src/ofxSPKUtils.cpp; sourceTree = SOURCE_ROOT; };
+		F592BF3AD191A07DF5FA552D /* SPK_Modifier.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Modifier.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Core/SPK_Modifier.cpp; sourceTree = SOURCE_ROOT; };
+		F8788F777A4B563A7E61307E /* SPK_Particle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = SPK_Particle.cpp; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Core/SPK_Particle.cpp; sourceTree = SOURCE_ROOT; };
+		FAA8FD2461259D1D31139E08 /* SPK_GLLineRenderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_GLLineRenderer.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/RenderingAPIs/OpenGL/SPK_GLLineRenderer.h; sourceTree = SOURCE_ROOT; };
+		FADEDFF9BC42945B98A800E9 /* MagicBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = MagicBase.cpp; path = src/MagicBase.cpp; sourceTree = SOURCE_ROOT; };
+		FD4893047E11EE384974237C /* SPK_GL_DEF.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = SPK_GL_DEF.h; path = ../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/RenderingAPIs/OpenGL/SPK_GL_DEF.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		078E5C319C4D9DF9307B7281 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E18AE0DEDF6F11F309934360 /* ofxSPK.cpp */,
+				60E939BABB78E2BF0B97EB46 /* ofxSPK.h */,
+				9430A5726F7AD1D28D1648C5 /* ofxSPKEmitter.cpp */,
+				EC62A1FD42814CCB54BBFE44 /* ofxSPKEmitter.h */,
+				699FE89C9DD8794AE7519252 /* ofxSPKGroup.cpp */,
+				4C38576D66C8E82AAA8C5C0F /* ofxSPKGroup.h */,
+				3AA3F14DF138D9015E87FD6B /* ofxSPKModifier.cpp */,
+				63787EF0957ECF879521CF5E /* ofxSPKModifier.h */,
+				8AE579F4216AC60A4F06FEBD /* ofxSPKRenderer.cpp */,
+				2C35B8E0C83D946105402A1E /* ofxSPKRenderer.h */,
+				80AB12A5530A5D1D883F228A /* ofxSPKSystem.cpp */,
+				3B7F3BCDF9851C1A837E8E7B /* ofxSPKSystem.h */,
+				F2402CB844A8DB80C4759F93 /* ofxSPKUtils.cpp */,
+				8668A5720E7B159E5BC7ADBD /* ofxSPKUtils.h */,
+				9FF1593935A2A2156B73BF40 /* ofxSPKZone.cpp */,
+				BFB18FA1C119767D1B787FC6 /* ofxSPKZone.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		0C48DC584C72F14E71F7F99A /* Renderers */ = {
+			isa = PBXGroup;
+			children = (
+				1A2CA8569F3F4C4E27D4F9ED /* SPK_LineRendererInterface.h */,
+				CC891C72A62AD6A860F6B645 /* SPK_Oriented2DRendererInterface.h */,
+				0B16E187D7596F58383F55C1 /* SPK_Oriented3DRendererInterface.h */,
+				0E73BAEEDC19A2DCE41CF344 /* SPK_PointRendererInterface.h */,
+				5DDFD158BDE7A2F5480DD703 /* SPK_QuadRendererInterface.h */,
+			);
+			name = Renderers;
+			sourceTree = "<group>";
+		};
+		12DC839B9A7B504EED36F149 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8F3AC7604D93C23ADD1E3BBD /* Emitters */,
+				40A7EA1DFEEF537AF4F9766A /* Modifiers */,
+				0C48DC584C72F14E71F7F99A /* Renderers */,
+				8BBD12C5B5F79C59EC19C898 /* Zones */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		147C29F21C44A94D2A710164 /* RenderingAPIs */ = {
+			isa = PBXGroup;
+			children = (
+				3D102F66FB423F26862D8924 /* OpenGL */,
+			);
+			name = RenderingAPIs;
+			sourceTree = "<group>";
+		};
+		1619A5C092D991846D0AF58A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F03404B849BF621ECC09D4C2 /* Core */,
+				4B0DD0611CB00A10F0E1089A /* Extensions */,
+				ED988344DD7833030CDD8E08 /* RenderingAPIs */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		375059D45D524E259D95002D /* Emitters */ = {
+			isa = PBXGroup;
+			children = (
+				07C7833BF635DCD82B222E41 /* SPK_NormalEmitter.cpp */,
+				6D2BD97573DD7768D228CA2A /* SPK_RandomEmitter.cpp */,
+				24885F4AE024FC58CF32C998 /* SPK_SphericEmitter.cpp */,
+				E6BF8D941DF38845A9B35B42 /* SPK_StraightEmitter.cpp */,
+			);
+			name = Emitters;
+			sourceTree = "<group>";
+		};
+		3C7FDFBA15B9CD9BF0D3ADB2 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A5AFC7D386B95AE0EDC3419F /* Core */,
+				12DC839B9A7B504EED36F149 /* Extensions */,
+				147C29F21C44A94D2A710164 /* RenderingAPIs */,
+				2D6EED579651A82DEC6F4F69 /* SPK.h */,
+				C16C7C819CCBC1A730A9419C /* SPK_GL.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		3D102F66FB423F26862D8924 /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				FD4893047E11EE384974237C /* SPK_GL_DEF.h */,
+				7E155DE0A1926296E7F4AABF /* SPK_GLExtHandler.h */,
+				FAA8FD2461259D1D31139E08 /* SPK_GLLineRenderer.h */,
+				461501F279C7AC098D0AE9F0 /* SPK_GLLineTrailRenderer.h */,
+				033D249F2B76A349842D2F76 /* SPK_GLPointRenderer.h */,
+				BB6466458044BA4B2FAEAECE /* SPK_GLQuadRenderer.h */,
+				2809259EBFF7E76281E392BB /* SPK_GLRenderer.h */,
+			);
+			name = OpenGL;
+			sourceTree = "<group>";
+		};
+		40A7EA1DFEEF537AF4F9766A /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				3C0FDE2642A1706CE8DE4470 /* SPK_Collision.h */,
+				1B3979933F925CE1E6B63614 /* SPK_Destroyer.h */,
+				5480DB2511D4C5EBEFD075AB /* SPK_LinearForce.h */,
+				287FDA1B64736FE21DD726F3 /* SPK_ModifierGroup.h */,
+				337A9E31CC000D8B296F7247 /* SPK_Obstacle.h */,
+				A603074D31EDDE9BF3332473 /* SPK_PointMass.h */,
+				E244214339EAC7EBF893C8A6 /* SPK_Rotator.h */,
+				DCE1D77EB8B65FF5692276F6 /* SPK_Vortex.h */,
+			);
+			name = Modifiers;
+			sourceTree = "<group>";
+		};
+		4B0DD0611CB00A10F0E1089A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				375059D45D524E259D95002D /* Emitters */,
+				ABB6CB68A2CA5570F3C60C96 /* Modifiers */,
+				A27740AAC13A93F800E474F7 /* Renderers */,
+				4E1AC3A07EF0293512DD7ABB /* Zones */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		4E1AC3A07EF0293512DD7ABB /* Zones */ = {
+			isa = PBXGroup;
+			children = (
+				6780EDFD78849F838482DE88 /* SPK_AABox.cpp */,
+				C51A3571CCD2FFAA41647F2E /* SPK_Cylinder.cpp */,
+				EF272C80C451E5D445CFC18D /* SPK_Line.cpp */,
+				69455498830B11EE82AD03AF /* SPK_Plane.cpp */,
+				39F27D364F30430CF91599B6 /* SPK_Point.cpp */,
+				6631F7D723E0E67E9A090BBA /* SPK_Ring.cpp */,
+				E9A1E00568D9C56343C64D57 /* SPK_Sphere.cpp */,
+				400989ED21748F97088F38CC /* SPK_ZoneIntersection.cpp */,
+				67FE12B08F004BCA79F0DB82 /* SPK_ZoneUnion.cpp */,
+			);
+			name = Zones;
+			sourceTree = "<group>";
+		};
+		68502CB76CD9E8EA1D10B660 /* SPARK */ = {
+			isa = PBXGroup;
+			children = (
+				3C7FDFBA15B9CD9BF0D3ADB2 /* include */,
+				1619A5C092D991846D0AF58A /* src */,
+			);
+			name = SPARK;
+			sourceTree = "<group>";
+		};
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = local_addons;
+			sourceTree = "<group>";
+		};
+		70ABEE8B4C87F2DC5120D34A /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				C83A73F9F59F5D1C4E68DEF4 /* SPK_GLExtHandler.cpp */,
+				5346A4CBC424C3C3DB7CFA70 /* SPK_GLLineRenderer.cpp */,
+				91465CA27A75F29512CE8C83 /* SPK_GLLineTrailRenderer.cpp */,
+				D27988F927D26D7E5CDA8361 /* SPK_GLPointRenderer.cpp */,
+				6FCD37835C1BCDE6AD5A2BEA /* SPK_GLQuadRenderer.cpp */,
+				0847B1DDAFAADD346BCAB929 /* SPK_GLRenderer.cpp */,
+			);
+			name = OpenGL;
+			sourceTree = "<group>";
+		};
+		838461E62789450E77632736 /* ofxSPK */ = {
+			isa = PBXGroup;
+			children = (
+				078E5C319C4D9DF9307B7281 /* src */,
+				C5A38F4D77BD31040ECB6770 /* libs */,
+			);
+			name = ofxSPK;
+			sourceTree = "<group>";
+		};
+		8BBD12C5B5F79C59EC19C898 /* Zones */ = {
+			isa = PBXGroup;
+			children = (
+				1A2246C8D6A405B57C82766B /* SPK_AABox.h */,
+				20BEB7E6C8113089F84DECEA /* SPK_Cylinder.h */,
+				11BCAC4A7A3C85957BAFF028 /* SPK_Line.h */,
+				463E15C8E01E8F9A98B5329E /* SPK_Plane.h */,
+				438C3CB57AC640287497A628 /* SPK_Point.h */,
+				EB1FCB09B58F52944F90E4D8 /* SPK_Ring.h */,
+				1D76AC896E6CE34156FC28CA /* SPK_Sphere.h */,
+				562FEBCC3708DC3DFE58502B /* SPK_ZoneIntersection.h */,
+				5F67DFD574629B924F1E1711 /* SPK_ZoneUnion.h */,
+			);
+			name = Zones;
+			sourceTree = "<group>";
+		};
+		8F3AC7604D93C23ADD1E3BBD /* Emitters */ = {
+			isa = PBXGroup;
+			children = (
+				C389609AB0D3BDEF9FF207AA /* SPK_NormalEmitter.h */,
+				AACD9B42DDE11A4800D30268 /* SPK_RandomEmitter.h */,
+				A6A0B5976D4BF672981513D0 /* SPK_SphericEmitter.h */,
+				46D9B1C11520863DC5C71558 /* SPK_StaticEmitter.h */,
+				9FB115FAF22CEE6E2542532B /* SPK_StraightEmitter.h */,
+			);
+			name = Emitters;
+			sourceTree = "<group>";
+		};
+		A27740AAC13A93F800E474F7 /* Renderers */ = {
+			isa = PBXGroup;
+			children = (
+				DB82E76303C7D850BB2DF465 /* SPK_Oriented3DRendererInterface.cpp */,
+				3F783D3418D9672A113822F9 /* SPK_QuadRendererInterface.cpp */,
+			);
+			name = Renderers;
+			sourceTree = "<group>";
+		};
+		A5AFC7D386B95AE0EDC3419F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8B5F16F746E2D09F0C847572 /* SPK_ArrayBuffer.h */,
+				26596D89165599FF771FCBCF /* SPK_Buffer.h */,
+				24E3E1C04829E49F2BC57F77 /* SPK_BufferHandler.h */,
+				4BF011132E2CE7EF1EA727B4 /* SPK_DEF.h */,
+				E70F2BDAD8DEE25E75859AF0 /* SPK_Emitter.h */,
+				90E35A657E1D60B71DA850BD /* SPK_Factory.h */,
+				DC89DCED90E65C1CF82FCE49 /* SPK_Group.h */,
+				B8D1E443CE398EDBCDB04069 /* SPK_Interpolator.h */,
+				6D04D5F4751E88997C4931A9 /* SPK_Model.h */,
+				6C5CD16D744D770847D1DC03 /* SPK_Modifier.h */,
+				18807A65B69BBEA01255ABE7 /* SPK_Particle.h */,
+				CA113B970558994AED22E874 /* SPK_Pool.h */,
+				CEEE1399B21FA25BE165AC15 /* SPK_Registerable.h */,
+				DAF516AD443D4A010C05CC4B /* SPK_RegWrapper.h */,
+				87815A2D43840AAB3B5532D1 /* SPK_Renderer.h */,
+				7C15EC5EDE2AC05398F188E3 /* SPK_System.h */,
+				7C607842CA52249918DF24C6 /* SPK_Transformable.h */,
+				340FB9B5F814F709C6330477 /* SPK_Vector3D.h */,
+				0EEF15888B04038FAE4491A1 /* SPK_Zone.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		ABB6CB68A2CA5570F3C60C96 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				60E2BEB8A19434CF1524A356 /* SPK_Collision.cpp */,
+				24860892BFF876E396736CB0 /* SPK_Destroyer.cpp */,
+				3AB53F4D0BF24EAC5FF8D1FE /* SPK_LinearForce.cpp */,
+				630FCEA786DD162DAD153352 /* SPK_ModifierGroup.cpp */,
+				D11F820A5FCCF86C0F3F69D4 /* SPK_Obstacle.cpp */,
+				9D09E693F0016B02155425AF /* SPK_PointMass.cpp */,
+				0D06477F56EEFAC4943A096E /* SPK_Vortex.cpp */,
+			);
+			name = Modifiers;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				838461E62789450E77632736 /* ofxSPK */,
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		C5A38F4D77BD31040ECB6770 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				68502CB76CD9E8EA1D10B660 /* SPARK */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
+				E4B69B5B0A3A1756003C02F2 /* KeihannaDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+				CCB0EC0D9B7154C4B552CE23 /* Animal.cpp */,
+				A0F77589501DC5FF1CCB059D /* Animal.h */,
+				7922271EF88E06825BD7F490 /* ArduinoManager.cpp */,
+				74D35026CF84BECD549E227F /* ArduinoManager.hpp */,
+				693F2E1D094F9B775CBF476F /* BallMagic.cpp */,
+				90B5E7E11F40F6F0C4950362 /* BallMagic.h */,
+				A19F36B0E8FA55014435DE90 /* CONST.hpp */,
+				161B47C3BBAF8E2DFBAD0B08 /* FireMagic.cpp */,
+				DAA0CA1084F391C78B812DEA /* FireMagic.h */,
+				9036C7965A66B29658ECD029 /* IceMagic.cpp */,
+				9718DD7E0F6BC748A640BD4C /* IceMagic.h */,
+				FADEDFF9BC42945B98A800E9 /* MagicBase.cpp */,
+				5A97C7F37F616C5217F33C1E /* MagicBase.h */,
+				A7B46A3AD8E3B2B2B99C0D3D /* Player.cpp */,
+				A837538A506CA52AF2214190 /* Player.h */,
+				ADBBA9C0BFE51E5257D4E881 /* Sound.cpp */,
+				3E8911C6B8ABF8D32A950348 /* Sound.h */,
+				436F3239B43788675A353142 /* WindMagic.cpp */,
+				A5D7E6D8DB79DC13284B0A4D /* WindMagic.h */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+		ED988344DD7833030CDD8E08 /* RenderingAPIs */ = {
+			isa = PBXGroup;
+			children = (
+				70ABEE8B4C87F2DC5120D34A /* OpenGL */,
+			);
+			name = RenderingAPIs;
+			sourceTree = "<group>";
+		};
+		F03404B849BF621ECC09D4C2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BF664DA3D5EC3F44C616408E /* SPK_BufferHandler.cpp */,
+				95F84F687A53AF5D42C7B5BE /* SPK_DEF.cpp */,
+				62A79EBE5EA4DE50A9EA6DAA /* SPK_Emitter.cpp */,
+				D78C83CE590AD100424E5534 /* SPK_Factory.cpp */,
+				9D274781FB54C60722951DC6 /* SPK_Group.cpp */,
+				0C3E905B824E052B19D39CF9 /* SPK_Interpolator.cpp */,
+				046191569B21DA5A87CD6EBE /* SPK_Model.cpp */,
+				F592BF3AD191A07DF5FA552D /* SPK_Modifier.cpp */,
+				F8788F777A4B563A7E61307E /* SPK_Particle.cpp */,
+				1D410894387F9A6ECB2EE066 /* SPK_Registerable.cpp */,
+				1FCEA5707EF98300760E07F8 /* SPK_Renderer.cpp */,
+				3EF5CFECAD6B7DD015A4A945 /* SPK_System.cpp */,
+				81BE523D8D8B8A250AFE0665 /* SPK_Transformable.cpp */,
+				C6D659C415F177EF217E6EE1 /* SPK_Vector3D.cpp */,
+				536777107EBCA60FF4BA243A /* SPK_Zone.cpp */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* Keihanna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "Keihanna" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = Keihanna;
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* KeihannaDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "Keihanna" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* Keihanna */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../Desktop/of_v0.9.8_osx_release/libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../Desktop/of_v0.9.8_osx_release/libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				DA36754E828A813C60CE8AD8 /* Animal.cpp in Sources */,
+				9DA9EA5240C0A38D6EC0DD2E /* ArduinoManager.cpp in Sources */,
+				501418882CF39168BCCB7996 /* BallMagic.cpp in Sources */,
+				092B491910352123B34626C2 /* FireMagic.cpp in Sources */,
+				C9209746371A876B3E0B75CD /* IceMagic.cpp in Sources */,
+				3FF2CBF83AEB2F90006BCA21 /* MagicBase.cpp in Sources */,
+				CB70B178311B16CC26AC0B3E /* Player.cpp in Sources */,
+				6C8551DB2C641E610EA107BE /* Sound.cpp in Sources */,
+				887816D9BACFF5159601953B /* WindMagic.cpp in Sources */,
+				CAB123D8E1A8E2EA8245350E /* ofxSPK.cpp in Sources */,
+				1D979B02494EA3A69D6E2F31 /* ofxSPKEmitter.cpp in Sources */,
+				8CFF4365589B89A1F1A5D7C0 /* ofxSPKGroup.cpp in Sources */,
+				5DA5A147971AEDAD70E14342 /* ofxSPKModifier.cpp in Sources */,
+				BDC41569095EAB460B0D22B0 /* ofxSPKRenderer.cpp in Sources */,
+				0C6F508761FB84DF23A0713A /* ofxSPKSystem.cpp in Sources */,
+				2A65F2AEEC63A4E6BDA5692A /* ofxSPKUtils.cpp in Sources */,
+				4F42A3FFB25AD754818456D0 /* ofxSPKZone.cpp in Sources */,
+				C0891DE19C8415335A373AD8 /* SPK_BufferHandler.cpp in Sources */,
+				F2DAF7B1BF9E4366B0C3AD5F /* SPK_DEF.cpp in Sources */,
+				E5AA4FDC50C66DA4A5161B67 /* SPK_Emitter.cpp in Sources */,
+				3CA4F5B3DA20978E716FD780 /* SPK_Factory.cpp in Sources */,
+				4C4F3B19E65C50868C90C409 /* SPK_Group.cpp in Sources */,
+				8115B3FACAA472E082E5470F /* SPK_Interpolator.cpp in Sources */,
+				C1F4CC8D82D0CC6E1934C3D2 /* SPK_Model.cpp in Sources */,
+				ABD2D9432788B16FDD3FE7AE /* SPK_Modifier.cpp in Sources */,
+				243E3BDC6510A6DE8E664DB7 /* SPK_Particle.cpp in Sources */,
+				5D6232F29ACA58AA2F327825 /* SPK_Registerable.cpp in Sources */,
+				6982FB74AA8DDB3F5C5E1C68 /* SPK_Renderer.cpp in Sources */,
+				0039A9B9F44C2310B866E0B9 /* SPK_System.cpp in Sources */,
+				68055DB76D18B0692C4B1C51 /* SPK_Transformable.cpp in Sources */,
+				433F2BE16791997CA5B0D26F /* SPK_Vector3D.cpp in Sources */,
+				5ECE1622A9BE7BFFE804F9B2 /* SPK_Zone.cpp in Sources */,
+				7255F2C21B445605A1ED5B4D /* SPK_NormalEmitter.cpp in Sources */,
+				0609918EF868B7AA98236821 /* SPK_RandomEmitter.cpp in Sources */,
+				170DFA0DC5CDD406F4012E48 /* SPK_SphericEmitter.cpp in Sources */,
+				648E969D7BC0432CA127EC2C /* SPK_StraightEmitter.cpp in Sources */,
+				C383FC86948DEE64BD0DFCDC /* SPK_Collision.cpp in Sources */,
+				92F802D89DB86DE809BFDA65 /* SPK_Destroyer.cpp in Sources */,
+				865EE4C3E2B3C455E34B01A1 /* SPK_LinearForce.cpp in Sources */,
+				8C786BE5D2CF303A936CE462 /* SPK_ModifierGroup.cpp in Sources */,
+				B49861C9E560847222F0F4DA /* SPK_Obstacle.cpp in Sources */,
+				BDFBC47F8FF5D2155856F361 /* SPK_PointMass.cpp in Sources */,
+				8B95BD05B95ABC0E2639048A /* SPK_Vortex.cpp in Sources */,
+				47FCF8DE10C5FC53B6A7047B /* SPK_Oriented3DRendererInterface.cpp in Sources */,
+				3FD0DDEC8CD9A211F445464E /* SPK_QuadRendererInterface.cpp in Sources */,
+				96D1D03B6EFBFD72F286F048 /* SPK_AABox.cpp in Sources */,
+				F930F879DBD59A5D056B5A07 /* SPK_Cylinder.cpp in Sources */,
+				3EC42BC0A171135E9674B2DB /* SPK_Line.cpp in Sources */,
+				F7C27C27F7C7BAD83E2A8FE0 /* SPK_Plane.cpp in Sources */,
+				253AB1F4A37B6B94CC907031 /* SPK_Point.cpp in Sources */,
+				4543715FD1857583D1827340 /* SPK_Ring.cpp in Sources */,
+				316588C495727412057CAA02 /* SPK_Sphere.cpp in Sources */,
+				97E9A0CF33A492981DB23E7D /* SPK_ZoneIntersection.cpp in Sources */,
+				606C43C3F3FF9F34FC11B52A /* SPK_ZoneUnion.cpp in Sources */,
+				34AF22B198FD2E66E524D0BE /* SPK_GLExtHandler.cpp in Sources */,
+				1AD8351F4BA098449DDDF6DF /* SPK_GLLineRenderer.cpp in Sources */,
+				B5DE12EA79D2B23E93D95CDD /* SPK_GLLineTrailRenderer.cpp in Sources */,
+				2B88BD8A3EDA49D6524D40B8 /* SPK_GLPointRenderer.cpp in Sources */,
+				8537852B0CBA1BD069870BB8 /* SPK_GLQuadRenderer.cpp in Sources */,
+				94E1E5E083FA9347F3105228 /* SPK_GLRenderer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Emitters,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Modifiers,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Renderers,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Zones,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/RenderingAPIs,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/RenderingAPIs/OpenGL,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Core,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Emitters,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Modifiers,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Renderers,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Zones,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/RenderingAPIs,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/RenderingAPIs/OpenGL,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Emitters,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Modifiers,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Renderers,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Zones,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/RenderingAPIs,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/RenderingAPIs/OpenGL,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Core,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Emitters,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Modifiers,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Renderers,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Zones,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/RenderingAPIs,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/RenderingAPIs/OpenGL,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/src,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../Desktop/of_v0.9.8_osx_release/libs/glut/lib/osx\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Emitters,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Modifiers,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Renderers,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Zones,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/RenderingAPIs,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/RenderingAPIs/OpenGL,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Core,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Emitters,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Modifiers,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Renderers,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Zones,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/RenderingAPIs,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/RenderingAPIs/OpenGL,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/src,
+				);
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../Desktop/of_v0.9.8_osx_release/libs/glut/lib/osx\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Core,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Emitters,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Modifiers,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Renderers,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/Extensions/Zones,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/RenderingAPIs,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/include/RenderingAPIs/OpenGL,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Core,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Emitters,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Modifiers,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Renderers,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/Extensions/Zones,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/RenderingAPIs,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/libs/SPARK/src/RenderingAPIs/OpenGL,
+					../Desktop/of_v0.9.8_osx_release/addons/ofxSPK/src,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "Keihanna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "Keihanna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}

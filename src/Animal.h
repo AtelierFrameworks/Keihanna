@@ -8,6 +8,8 @@ public:
 	void draw();
 
 	ofImage animal;
-	int x = 0, y = 0;
+	int x , y=ofGetHeight() /10*9;
+    int dir;
+    int imgH;
 };
 

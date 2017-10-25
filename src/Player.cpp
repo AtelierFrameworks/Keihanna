@@ -85,6 +85,8 @@ void Player::draw() {
 	ofPopMatrix();
 }
 
+
+
 void Player::move(CDirection dir) {
 	if (dir == LEFT) bLeft = true;
 	else if (dir == RIGHT) bLeft = false;
