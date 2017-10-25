@@ -2,6 +2,12 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
+
+    kami.load("1.jpg");
+    back.load("BackGround.jpg");
+    mySound.load("o.mp3");
+    mouse = false;
+
 	ofSetFrameRate(60);
 	//ofSetFullscreen(true);
 	for (int i = 0; i < 10; i++) {
@@ -23,10 +29,12 @@ void ofApp::setup(){
 
     mArduino.setup();
     ofAddListener(mArduino.mSendEvent, this, &ofApp::receiveData);
+
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
+
 	//bLeft=0@¶Œü‚«@bLeft=1@‰EŒü‚«
 	//bLeft=atelier.update();
 	/*piano.update();
@@ -53,6 +61,14 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
+
+    if(mouse==true){
+        kami.draw(50, 0);
+        mySound.play();
+        //p=2;
+    }
+    
+
 	ofSetColor(255, 255, 255, 255);
 	ofEnableBlendMode(OF_BLENDMODE_ALPHA);
 	back.draw(0, 0, ofGetWidth(), ofGetHeight());
@@ -85,10 +101,12 @@ void ofApp::draw(){
 //        atelier[i].draw();
 //    }
 //    atelier[1].draw();
+
 }
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
+
 	if (key == 'q') {
 		color_data = 0;
 		
@@ -206,6 +224,7 @@ void ofApp::keyPressed(int key){
 
 	
 
+
 }
 
 //--------------------------------------------------------------
@@ -215,7 +234,7 @@ void ofApp::keyReleased(int key){
 
 //--------------------------------------------------------------
 void ofApp::mouseMoved(int x, int y ){
-
+    
 }
 
 //--------------------------------------------------------------
@@ -225,11 +244,12 @@ void ofApp::mouseDragged(int x, int y, int button){
 
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button){
-	
+    mouse=true;
 }
 
 //--------------------------------------------------------------
 void ofApp::mouseReleased(int x, int y, int button){
+    mouse=false;
 
 }
 
@@ -257,6 +277,7 @@ void ofApp::gotMessage(ofMessage msg){
 void ofApp::dragEvent(ofDragInfo dragInfo){ 
 
 }
+
 
 
 void ofApp:: receiveData(std::vector<CONST::E_SENSOR> & isActionSensor){
@@ -304,4 +325,5 @@ void ofApp:: receiveData(std::vector<CONST::E_SENSOR> & isActionSensor){
     
 
 }
+
 
