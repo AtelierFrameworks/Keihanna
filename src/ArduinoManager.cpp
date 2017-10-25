@@ -11,7 +11,7 @@
 void ArduinoManager::setup(){
     mSerial.listDevices();
     vector <ofSerialDeviceInfo> deviceList = mSerial.getDeviceList();
-    mSerial.setup(1,38400);
+    mSerial.setup(1,9600);
     mValue.clear();
     mHasData = false;
     mHasColorData = false;
