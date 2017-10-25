@@ -7,7 +7,8 @@ void ofApp::setup(){
 	for (int i = 0; i < 10; i++) {
 		magic[i].setup(i);
 	}
-	for (int i = 0; i < 3; i++) {
+	for (int i = 0; i < 4; i++) {
+        char costume[20];
 		sprintf(costume, "atelier%d.png", i);
 		atelier[i].init(costume);
 	}
@@ -79,7 +80,11 @@ void ofApp::draw(){
 		atelier[3].draw();
 		break;
 	}
-	
+    
+//    for(int i = 0; i<4;i++){
+//        atelier[i].draw();
+//    }
+//    atelier[1].draw();
 }
 
 //--------------------------------------------------------------

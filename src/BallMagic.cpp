@@ -16,7 +16,8 @@ void BallMagic::setup(int _color)
 	//Key = false;
 	ofDisableArbTex();
 
-	sprintf(ballTitle, "ball%d.png", _color);
+//	sprintf(ballTitle, "ball%d.png", _color);
+    ballTitle = "ball0.png";
 	sprite.load(ballTitle);
 	
 	ofEnableArbTex();
@@ -26,9 +27,6 @@ void BallMagic::setup(int _color)
 	sys.setup();
 
 	group.setup(sys);
-	group.setColor(ofxSPK::RangeC(ofColor(255, 255), ofColor(255, 255)),
-		ofxSPK::RangeC(ofColor(0, 0), ofColor(255, 0)));
-
 	group.setLifeTime(0.5);
 	group.setFriction(0.1);
 	group.setSize(0, ofxSPK::RangeF(30, 250));
@@ -75,8 +73,8 @@ int BallMagic::update()
 		}
 	
 	if (mPosition.x >= ofGetWidth() || mPosition.y >= ofGetHeight()) {
-		mPosition.x = 0;
-		mPosition.y = 0;
+		mPosition.x = -100;
+		mPosition.y = -100;
 		mVelocity.x = 0;
 		mVelocity.y = 0;
 	}
@@ -87,11 +85,10 @@ int BallMagic::update()
 }
 
 void BallMagic::draw() {
-	ofEnableBlendMode(OF_BLENDMODE_ADD);
-	ofSetColor(255, 0, 0, 255);
-
+    ofEnableBlendMode(OF_BLENDMODE_ADD);
+    // TODO: change value with variable
+    group.setColor(ofxSPK::RangeC(ofColor(255,255,0, 255), ofColor(0,255,0, 255)),ofxSPK::RangeC(ofColor(0, 255), ofColor(255,0,0, 255)));
 	sys.draw();
-	
 	sprite.bind();
 	ofEnablePointSprites();
 	ofDisablePointSprites();

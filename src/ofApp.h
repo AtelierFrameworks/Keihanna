@@ -29,17 +29,10 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
-
     void receiveData(std::vector<CONST::E_SENSOR> & isActionSensor);
-
-
-
-
-
-
 		ofImage back;
 		Player atelier[4];
-		char costume[20];
+		
 		/*Player piano;
 		Player xylophone;
 		Player guitar;*/

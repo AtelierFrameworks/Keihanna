@@ -21,7 +21,7 @@ public:
 	int plus;
 	bool bLeft;
 
-	char ballTitle[20];
+	string ballTitle;
 
 };
 

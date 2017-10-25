@@ -1,9 +1,7 @@
-﻿#include "Player.h"
+#include "Player.h"
 
 
 
-ofImage Player::img;
-ofMesh Player::mesh;
 int Player::imgW;
 int Player::imgH;
 
