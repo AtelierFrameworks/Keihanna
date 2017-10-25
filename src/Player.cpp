@@ -1,9 +1,7 @@
-﻿#include "Player.h"
+#include "Player.h"
 
 
 
-ofImage Player::img;
-ofMesh Player::mesh;
 int Player::imgW;
 int Player::imgH;
 
@@ -27,18 +25,20 @@ Player::Player() {
 	bLeft = false;
 }
 
-void Player::update() {
+int Player::update() {
 	x =  ofGetMouseX();
 	y =  ofGetMouseY();
-	if (y < ofGetHeight() / 5 * 2)y = ofGetHeight() / 5 * 2;
-	else if (y > ofGetHeight() / 5 * 3)y = ofGetHeight() / 5 * 3;
+	int MAXY = ofGetHeight()/100*68;
+	int MinY = ofGetHeight()/100*77;
+	if (y < MAXY)y = MAXY;
+	else if (y > MinY)y = MinY;
 
 
 	if (bLeft) {
-		t += 0.02; //左向きならtを増やす
+		t += 0.05; //左向きならtを増やす
 	}
 	else {
-		t -= 0.02; //右向きならtを減らす
+		t -= 0.05; //右向きならtを減らす
 	}
 	// tは-1〜2の間
 	if (t>2) t = 2;
@@ -54,6 +54,12 @@ void Player::update() {
 		move(LEFT);
 	}
 
+	if (bLeft) {
+		return 0;
+	}
+	else {
+		return 1;
+	}
 
 }
 

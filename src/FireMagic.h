@@ -3,8 +3,12 @@ class FireMagic
 {
 public:
 	void setup();
-	void update();
+	int update();
 	void draw();
 	
+	int count;
+	int particle ;
+	int spot[2];
+	int plus;
 };
 
